@@ -1,17 +1,22 @@
 {
-  "name": "",
-  "version": "",
+  "name": "fec-barebnb-proxy",
+  "version": "1.0.0",
   "description": "",
-  "author": "",
-  "license": "",
-  "engines": {
-    "node": ">=6.13.0"
-  },
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-  },
-  "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-partials": "^0.3.0",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "request": "^2.88.0"
   }
 }
